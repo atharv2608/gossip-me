@@ -23,7 +23,7 @@ import { Loader2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { toast } from "@/components/ui/use-toast";
 import { theme } from "@/components/theme";
-function page() {
+function Page() {
   const [username, setUsername] = useState("");
   const [usernameMessage, setUsernameMessage] = useState("");
   const [isCheckingUsername, setIsCheckingUsername] = useState(false);
@@ -178,4 +178,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
